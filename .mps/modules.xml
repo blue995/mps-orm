@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MPSProject">
+    <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/de.bluefu.orm/de.bluefu.orm.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.bluefu.orm.sandbox/de.bluefu.orm.sandbox.msd" folder="" />
+    </projectModules>
+  </component>
+</project>
