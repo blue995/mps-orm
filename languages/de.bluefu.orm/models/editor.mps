@@ -204,6 +204,10 @@
     <property role="3GE5qa" value="fields.entity" />
     <ref role="1XX52x" to="ob49:7Q9brJK5QEa" resolve="EntityField" />
     <node concept="3EZMnI" id="7Q9brJK6cCG" role="2wV5jI">
+      <node concept="3F0ifn" id="4MAF2RZBODs" role="3EZMnx">
+        <property role="3F0ifm" value="object" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
       <node concept="2iRfu4" id="7Q9brJK6cCH" role="2iSdaV" />
       <node concept="3F1sOY" id="7Q9brJK6xNq" role="3EZMnx">
         <ref role="1NtTu8" to="ob49:7Q9brJK6xNk" resolve="entityReference" />
@@ -241,6 +245,10 @@
     <property role="3GE5qa" value="fields.property" />
     <ref role="1XX52x" to="ob49:7Q9brJK5QEk" resolve="PropertyField" />
     <node concept="3EZMnI" id="7Q9brJK6cE6" role="2wV5jI">
+      <node concept="3F0ifn" id="4MAF2RZBJmk" role="3EZMnx">
+        <property role="3F0ifm" value="property" />
+        <ref role="1k5W1q" to="tpen:hgVS8CF" resolve="KeyWord" />
+      </node>
       <node concept="2iRfu4" id="7Q9brJK6cE7" role="2iSdaV" />
       <node concept="3F1sOY" id="7Q9brJK6cE3" role="3EZMnx">
         <ref role="1NtTu8" to="ob49:7Q9brJK5QFS" resolve="type" />
