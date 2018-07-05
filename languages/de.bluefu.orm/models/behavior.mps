@@ -227,7 +227,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="7Q9brJK6FB1">
-    <property role="3GE5qa" value="fields.entity" />
+    <property role="3GE5qa" value="fields" />
     <ref role="13h7C2" to="ob49:7Q9brJK6xMh" resolve="BackPopulationField" />
     <node concept="13i0hz" id="7Q9brJK6FBc" role="13h7CS">
       <property role="TrG5h" value="getMultiplicity" />
@@ -288,7 +288,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="6LDkfD24L6g">
-    <property role="3GE5qa" value="fields.entity" />
+    <property role="3GE5qa" value="fields" />
     <ref role="13h7C2" to="ob49:7Q9brJK5QEa" resolve="EntityField" />
     <node concept="13hLZK" id="6LDkfD24L6h" role="13h7CW">
       <node concept="3clFbS" id="6LDkfD24L6i" role="2VODD2" />

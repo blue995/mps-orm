@@ -3,6 +3,7 @@
   <persistence version="9" />
   <languages>
     <use id="f5a662b9-7bfe-41c1-b0ba-697096c96e2f" name="de.bluefu.orm" version="0" />
+    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   </languages>
   <imports />
   <registry>

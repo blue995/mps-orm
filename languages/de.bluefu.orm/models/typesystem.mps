@@ -182,7 +182,7 @@
   </registry>
   <node concept="18kY7G" id="6LDkfD24Jpz">
     <property role="TrG5h" value="check_BackPopulationField" />
-    <property role="3GE5qa" value="fields.entity" />
+    <property role="3GE5qa" value="fields" />
     <node concept="3clFbS" id="6LDkfD24Jp$" role="18ibNy">
       <node concept="3cpWs8" id="6LDkfD24OeE" role="3cqZAp">
         <node concept="3cpWsn" id="6LDkfD24OeF" role="3cpWs9">
@@ -325,7 +325,7 @@
   </node>
   <node concept="18kY7G" id="4YhVY5SxqbE">
     <property role="TrG5h" value="check_EntityField" />
-    <property role="3GE5qa" value="fields.entity" />
+    <property role="3GE5qa" value="fields" />
     <node concept="3clFbS" id="4YhVY5SxqbF" role="18ibNy">
       <node concept="3clFbJ" id="4YhVY5SxqbR" role="3cqZAp">
         <node concept="2OqwBi" id="4YhVY5SxJoM" role="3clFbw">

@@ -64,7 +64,7 @@
   <node concept="1TIwiD" id="7Q9brJK5QEa">
     <property role="EcuMT" value="9045811611760552586" />
     <property role="TrG5h" value="EntityField" />
-    <property role="3GE5qa" value="fields.entity" />
+    <property role="3GE5qa" value="fields" />
     <ref role="1TJDcQ" node="7Q9brJK5QEb" resolve="Field" />
     <node concept="1TJgyj" id="7Q9brJK5QFw" role="1TKVEi">
       <property role="IQ2ns" value="9045811611760552672" />
@@ -93,7 +93,7 @@
     <property role="TrG5h" value="Field" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <property role="3GE5qa" value="fields.entity" />
+    <property role="3GE5qa" value="fields" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
     <node concept="PrWs8" id="4YhVY5Sw48x" role="PzmwI">
       <ref role="PrY4T" node="4YhVY5Sw48r" resolve="IUniqueIdentifierNamedConcept" />
@@ -110,7 +110,7 @@
   <node concept="1TIwiD" id="7Q9brJK5QEk">
     <property role="EcuMT" value="9045811611760552596" />
     <property role="TrG5h" value="PropertyField" />
-    <property role="3GE5qa" value="fields.property" />
+    <property role="3GE5qa" value="fields" />
     <ref role="1TJDcQ" node="7Q9brJK5QEb" resolve="Field" />
     <node concept="1TJgyj" id="7Q9brJK5QFS" role="1TKVEi">
       <property role="IQ2ns" value="9045811611760552696" />
@@ -146,19 +146,19 @@
     <property role="TrG5h" value="PropertyType" />
     <property role="R5$K7" value="true" />
     <property role="R5$K2" value="false" />
-    <property role="3GE5qa" value="fields.property" />
+    <property role="3GE5qa" value="property types" />
     <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
   </node>
   <node concept="1TIwiD" id="7Q9brJK6cCc">
     <property role="EcuMT" value="9045811611760642572" />
-    <property role="3GE5qa" value="fields.property" />
+    <property role="3GE5qa" value="property types" />
     <property role="TrG5h" value="StringType" />
     <property role="34LRSv" value="String" />
     <ref role="1TJDcQ" node="7Q9brJK5QFF" resolve="PropertyType" />
   </node>
   <node concept="1TIwiD" id="7Q9brJK6cCd">
     <property role="EcuMT" value="9045811611760642573" />
-    <property role="3GE5qa" value="fields.property" />
+    <property role="3GE5qa" value="property types" />
     <property role="TrG5h" value="IntegerType" />
     <property role="34LRSv" value="Integer" />
     <ref role="1TJDcQ" node="7Q9brJK5QFF" resolve="PropertyType" />
@@ -181,7 +181,7 @@
   </node>
   <node concept="1TIwiD" id="7Q9brJK6xMh">
     <property role="EcuMT" value="9045811611760729233" />
-    <property role="3GE5qa" value="fields.entity" />
+    <property role="3GE5qa" value="fields" />
     <property role="TrG5h" value="BackPopulationField" />
     <ref role="1TJDcQ" node="7Q9brJK5QEb" resolve="Field" />
     <node concept="1TJgyj" id="7Q9brJK6xN_" role="1TKVEi">
