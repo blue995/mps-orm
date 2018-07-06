@@ -124,21 +124,21 @@
     <property role="EcuMT" value="9045811611760552597" />
     <property role="3GE5qa" value="multiplcity" />
     <property role="TrG5h" value="ManyToOne" />
-    <property role="34LRSv" value="n..1" />
+    <property role="34LRSv" value="n:1" />
     <ref role="1TJDcQ" node="7Q9brJK5QEj" resolve="Multiplicity" />
   </node>
   <node concept="1TIwiD" id="7Q9brJK5QFu">
     <property role="EcuMT" value="9045811611760552670" />
     <property role="3GE5qa" value="multiplcity" />
     <property role="TrG5h" value="OneToMany" />
-    <property role="34LRSv" value="1..n" />
+    <property role="34LRSv" value="1:n" />
     <ref role="1TJDcQ" node="7Q9brJK5QEj" resolve="Multiplicity" />
   </node>
   <node concept="1TIwiD" id="7Q9brJK5QFv">
     <property role="EcuMT" value="9045811611760552671" />
     <property role="3GE5qa" value="multiplcity" />
     <property role="TrG5h" value="ManyToMany" />
-    <property role="34LRSv" value="n..m" />
+    <property role="34LRSv" value="n:m" />
     <ref role="1TJDcQ" node="7Q9brJK5QEj" resolve="Multiplicity" />
   </node>
   <node concept="1TIwiD" id="7Q9brJK5QFF">

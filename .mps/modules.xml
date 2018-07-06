@@ -3,6 +3,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/de.bluefu.orm/de.bluefu.orm.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.bluefu.orm.lib/de.bluefu.orm.lib.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.bluefu.orm.sandbox/de.bluefu.orm.sandbox.msd" folder="" />
     </projectModules>
   </component>
