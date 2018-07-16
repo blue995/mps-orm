@@ -325,7 +325,7 @@
     <property role="3GE5qa" value="fields" />
     <ref role="13h7C2" to="ob49:7Q9brJK6xMh" resolve="BackPopulationField" />
     <node concept="13i0hz" id="7Q9brJK6FBc" role="13h7CS">
-      <property role="TrG5h" value="getMultiplicity" />
+      <property role="TrG5h" value="getMultiplicityConcept" />
       <node concept="3Tm1VV" id="7Q9brJK6FBd" role="1B3o_S" />
       <node concept="3bZ5Sz" id="7Q9brJK6FBs" role="3clF45">
         <ref role="3bZ5Sy" to="ob49:7Q9brJK5QEj" resolve="Multiplicity" />

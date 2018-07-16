@@ -278,6 +278,14 @@
         <property role="3V$3am" value="fields" />
         <property role="3V$3ak" value="f5a662b9-7bfe-41c1-b0ba-697096c96e2f/9045811611760529105/9045811611760552698" />
       </node>
+      <node concept="2dB$sL" id="5X1p0Ofv0oC" role="2dB$t1">
+        <property role="TrG5h" value="images" />
+        <node concept="2dB$t$" id="5X1p0Ofv0p4" role="2dB$tr" />
+        <node concept="2dYOxw" id="5X1p0Ofv17W" role="2dYOxi" />
+        <node concept="2d$N43" id="5X1p0Ofv0p1" role="2d$N5J">
+          <ref role="2d$N42" node="7Q9brJK6jyv" resolve="Image" />
+        </node>
+      </node>
     </node>
     <node concept="2dBydE" id="4MAF2RZBJ8C" role="2d$2kz">
       <property role="TrG5h" value="ClubRole" />
