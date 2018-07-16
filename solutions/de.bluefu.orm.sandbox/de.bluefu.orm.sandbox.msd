@@ -6,6 +6,9 @@
     </modelRoot>
   </models>
   <sourcePath />
+  <dependencies>
+    <dependency reexport="false">28d34d11-580d-41b6-b719-d207fd1ef5e8(de.bluefu.orm.lib)</dependency>
+  </dependencies>
   <languageVersions>
     <language slang="l:f5a662b9-7bfe-41c1-b0ba-697096c96e2f:de.bluefu.orm" version="0" />
     <language slang="l:f3061a53-9226-4cc5-a443-f952ceaf5816:jetbrains.mps.baseLanguage" version="6" />
@@ -22,6 +25,7 @@
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
+    <module reference="28d34d11-580d-41b6-b719-d207fd1ef5e8(de.bluefu.orm.lib)" version="0" />
     <module reference="b1dce145-0730-40a8-b018-f14803dc2bbb(de.bluefu.orm.sandbox)" version="0" />
   </dependencyVersions>
 </solution>
