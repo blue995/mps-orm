@@ -87,6 +87,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7Q9brJK6xMS" resolve="EntityReference" />
     </node>
+    <node concept="PrWs8" id="5X1p0OfrVeM" role="PzmwI">
+      <ref role="PrY4T" node="5X1p0OfrVdz" resolve="IEntityType" />
+    </node>
+    <node concept="PrWs8" id="5X1p0OfsdMH" role="PzmwI">
+      <ref role="PrY4T" node="5X1p0OfsdKm" resolve="INavigateableField" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7Q9brJK5QEb">
     <property role="EcuMT" value="9045811611760552587" />
@@ -191,6 +197,19 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="7Q9brJK6xMi" resolve="EntityFieldReference" />
     </node>
+    <node concept="1TJgyj" id="5X1p0Ofqmfi" role="1TKVEi">
+      <property role="IQ2ns" value="6863877314345264082" />
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="multiplicity" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="7Q9brJK5QEj" resolve="Multiplicity" />
+    </node>
+    <node concept="PrWs8" id="5X1p0OfrX1v" role="PzmwI">
+      <ref role="PrY4T" node="5X1p0OfrVdz" resolve="IEntityType" />
+    </node>
+    <node concept="PrWs8" id="5X1p0OfsfD0" role="PzmwI">
+      <ref role="PrY4T" node="5X1p0OfsdKm" resolve="INavigateableField" />
+    </node>
   </node>
   <node concept="1TIwiD" id="7Q9brJK6xMi">
     <property role="EcuMT" value="9045811611760729234" />
@@ -244,6 +263,19 @@
     <property role="EcuMT" value="5733627552287703579" />
     <property role="TrG5h" value="IUniqueIdentifierNamedConcept" />
     <node concept="PrWs8" id="4YhVY5Sw48s" role="PrDN$">
+      <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
+    </node>
+  </node>
+  <node concept="PlHQZ" id="5X1p0OfrVdz">
+    <property role="EcuMT" value="6863877314345677667" />
+    <property role="3GE5qa" value="fields" />
+    <property role="TrG5h" value="IEntityType" />
+  </node>
+  <node concept="PlHQZ" id="5X1p0OfsdKm">
+    <property role="EcuMT" value="6863877314345753622" />
+    <property role="3GE5qa" value="fields" />
+    <property role="TrG5h" value="INavigateableField" />
+    <node concept="PrWs8" id="5X1p0OfstD5" role="PrDN$">
       <ref role="PrY4T" to="tpck:h0TrEE$" resolve="INamedConcept" />
     </node>
   </node>

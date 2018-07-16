@@ -12,6 +12,7 @@
   </imports>
   <registry>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
+      <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
       <concept id="1154032098014" name="jetbrains.mps.baseLanguage.structure.AbstractLoopStatement" flags="nn" index="2LF5Ji">
         <child id="1154032183016" name="body" index="2LFqv$" />
       </concept>
@@ -32,6 +33,7 @@
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
         <reference id="1068581517664" name="variableDeclaration" index="3cqZAo" />
       </concept>
+      <concept id="1225271221393" name="jetbrains.mps.baseLanguage.structure.NPENotEqualsExpression" flags="nn" index="17QLQc" />
       <concept id="1225271283259" name="jetbrains.mps.baseLanguage.structure.NPEEqualsExpression" flags="nn" index="17R0WA" />
       <concept id="4972933694980447171" name="jetbrains.mps.baseLanguage.structure.BaseVariableDeclaration" flags="ng" index="19Szcq">
         <child id="5680397130376446158" name="type" index="1tU5fm" />
@@ -47,6 +49,7 @@
       <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
+      <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -130,17 +133,23 @@
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
         <reference id="1177026940964" name="conceptDeclaration" index="cht4Q" />
       </concept>
+      <concept id="1140725362528" name="jetbrains.mps.lang.smodel.structure.Link_SetTargetOperation" flags="nn" index="2oxUTD">
+        <child id="1140725362529" name="linkTarget" index="2oxUTC" />
+      </concept>
       <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="4693937538533521280" name="jetbrains.mps.lang.smodel.structure.OfConceptOperation" flags="ng" index="v3k3i">
         <child id="4693937538533538124" name="requestedConcept" index="v3oSu" />
       </concept>
+      <concept id="7453996997717780434" name="jetbrains.mps.lang.smodel.structure.Node_GetSConceptOperation" flags="nn" index="2yIwOk" />
       <concept id="1138757581985" name="jetbrains.mps.lang.smodel.structure.Link_SetNewChildOperation" flags="nn" index="zfrQC">
         <reference id="1139880128956" name="concept" index="1A9B2P" />
       </concept>
       <concept id="1145383075378" name="jetbrains.mps.lang.smodel.structure.SNodeListType" flags="in" index="2I9FWS">
         <reference id="1145383142433" name="elementConcept" index="2I9WkF" />
       </concept>
+      <concept id="1181949435690" name="jetbrains.mps.lang.smodel.structure.Concept_NewInstance" flags="nn" index="LFhST" />
       <concept id="1145573345940" name="jetbrains.mps.lang.smodel.structure.Node_GetAllSiblingsOperation" flags="nn" index="2TvwIu" />
+      <concept id="1171999116870" name="jetbrains.mps.lang.smodel.structure.Node_IsNullOperation" flags="nn" index="3w_OXm" />
       <concept id="1172008320231" name="jetbrains.mps.lang.smodel.structure.Node_IsNotNullOperation" flags="nn" index="3x8VRR" />
       <concept id="1138055754698" name="jetbrains.mps.lang.smodel.structure.SNodeType" flags="in" index="3Tqbb2">
         <reference id="1138405853777" name="concept" index="ehGHo" />
@@ -197,8 +206,8 @@
                 <ref role="37wK5l" to="wtma:4MAF2RZD2Hm" resolve="getEntityField" />
               </node>
             </node>
-            <node concept="2qgKlT" id="6LDkfD24OeM" role="2OqNvi">
-              <ref role="37wK5l" to="wtma:6LDkfD24MCf" resolve="isUnidirectional" />
+            <node concept="2qgKlT" id="5X1p0OfsqX_" role="2OqNvi">
+              <ref role="37wK5l" to="wtma:5X1p0OfsdLF" resolve="isUnidirectional" />
             </node>
           </node>
         </node>
@@ -234,6 +243,72 @@
         </node>
         <node concept="37vLTw" id="6LDkfD24OEd" role="3clFbw">
           <ref role="3cqZAo" node="6LDkfD24OeF" resolve="unidirectional" />
+        </node>
+      </node>
+      <node concept="3clFbH" id="5X1p0OfqmYQ" role="3cqZAp" />
+      <node concept="3clFbJ" id="5X1p0Ofqn9F" role="3cqZAp">
+        <node concept="3clFbS" id="5X1p0Ofqn9H" role="3clFbx">
+          <node concept="2MkqsV" id="5X1p0Ofqt1w" role="3cqZAp">
+            <node concept="3Cnw8n" id="5X1p0OfqBXc" role="2OEOjU">
+              <ref role="QpYPw" node="5X1p0OfquCL" resolve="fix_wrongMultiplicityBackpopulationField" />
+              <node concept="3CnSsL" id="5X1p0OfqCer" role="3Coj4f">
+                <ref role="QkamJ" node="5X1p0OfquD6" resolve="field" />
+                <node concept="1YBJjd" id="5X1p0OfqCeC" role="3CoRuB">
+                  <ref role="1YBMHb" node="6LDkfD24JpA" resolve="bpf" />
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs3" id="5X1p0Ofqtkj" role="2MkJ7o">
+              <node concept="2OqwBi" id="5X1p0OfqtxV" role="3uHU7w">
+                <node concept="1YBJjd" id="5X1p0Ofqtk_" role="2Oq$k0">
+                  <ref role="1YBMHb" node="6LDkfD24JpA" resolve="bpf" />
+                </node>
+                <node concept="2qgKlT" id="5X1p0Ofqu56" role="2OqNvi">
+                  <ref role="37wK5l" to="wtma:7Q9brJK6FBc" resolve="getMultiplicity" />
+                </node>
+              </node>
+              <node concept="Xl_RD" id="5X1p0Ofqt1J" role="3uHU7B">
+                <property role="Xl_RC" value="Multiplicity should be of type " />
+              </node>
+            </node>
+            <node concept="1YBJjd" id="5X1p0Ofquny" role="2OEOjV">
+              <ref role="1YBMHb" node="6LDkfD24JpA" resolve="bpf" />
+            </node>
+          </node>
+        </node>
+        <node concept="22lmx$" id="5X1p0Ofqpjn" role="3clFbw">
+          <node concept="17QLQc" id="5X1p0OfqrNT" role="3uHU7w">
+            <node concept="2OqwBi" id="5X1p0OfqsgI" role="3uHU7w">
+              <node concept="1YBJjd" id="5X1p0Ofqs0B" role="2Oq$k0">
+                <ref role="1YBMHb" node="6LDkfD24JpA" resolve="bpf" />
+              </node>
+              <node concept="2qgKlT" id="5X1p0OfqsN$" role="2OqNvi">
+                <ref role="37wK5l" to="wtma:7Q9brJK6FBc" resolve="getMultiplicity" />
+              </node>
+            </node>
+            <node concept="2OqwBi" id="5X1p0OfqqHD" role="3uHU7B">
+              <node concept="2OqwBi" id="5X1p0OfqpF6" role="2Oq$k0">
+                <node concept="1YBJjd" id="5X1p0OfqpvQ" role="2Oq$k0">
+                  <ref role="1YBMHb" node="6LDkfD24JpA" resolve="bpf" />
+                </node>
+                <node concept="3TrEf2" id="5X1p0OfqqdE" role="2OqNvi">
+                  <ref role="3Tt5mk" to="ob49:5X1p0Ofqmfi" resolve="multiplicity" />
+                </node>
+              </node>
+              <node concept="2yIwOk" id="5X1p0Ofqr68" role="2OqNvi" />
+            </node>
+          </node>
+          <node concept="2OqwBi" id="5X1p0Ofqotm" role="3uHU7B">
+            <node concept="2OqwBi" id="5X1p0OfqnAO" role="2Oq$k0">
+              <node concept="1YBJjd" id="5X1p0OfqniQ" role="2Oq$k0">
+                <ref role="1YBMHb" node="6LDkfD24JpA" resolve="bpf" />
+              </node>
+              <node concept="3TrEf2" id="5X1p0Ofqo7o" role="2OqNvi">
+                <ref role="3Tt5mk" to="ob49:5X1p0Ofqmfi" resolve="multiplicity" />
+              </node>
+            </node>
+            <node concept="3w_OXm" id="5X1p0OfqoS1" role="2OqNvi" />
+          </node>
         </node>
       </node>
     </node>
@@ -332,8 +407,8 @@
           <node concept="1YBJjd" id="4YhVY5SxJ7k" role="2Oq$k0">
             <ref role="1YBMHb" node="4YhVY5SxqbH" resolve="ef" />
           </node>
-          <node concept="2qgKlT" id="4YhVY5SxJY3" role="2OqNvi">
-            <ref role="37wK5l" to="wtma:6LDkfD24L6r" resolve="isBidirectional" />
+          <node concept="2qgKlT" id="5X1p0Ofs$7y" role="2OqNvi">
+            <ref role="37wK5l" to="wtma:5X1p0OfsdKy" resolve="isBidirectional" />
           </node>
         </node>
         <node concept="3clFbS" id="4YhVY5SxqbT" role="3clFbx">
@@ -424,6 +499,30 @@
             </node>
           </node>
         </node>
+        <node concept="3cpWs8" id="5X1p0OfqKgk" role="3cqZAp">
+          <node concept="3cpWsn" id="5X1p0OfqKgl" role="3cpWs9">
+            <property role="TrG5h" value="multiplicity" />
+            <node concept="3Tqbb2" id="5X1p0OfqKgh" role="1tU5fm">
+              <ref role="ehGHo" to="ob49:7Q9brJK5QEj" resolve="Multiplicity" />
+            </node>
+            <node concept="2OqwBi" id="5X1p0OfqKgm" role="33vP2m">
+              <node concept="2OqwBi" id="5X1p0OfqKgn" role="2Oq$k0">
+                <node concept="2OqwBi" id="5X1p0OfqKgo" role="2Oq$k0">
+                  <node concept="QwW4i" id="5X1p0OfqKgp" role="2Oq$k0">
+                    <ref role="QwW4h" node="4MAF2RZCoRP" resolve="entityField" />
+                  </node>
+                  <node concept="3TrEf2" id="5X1p0OfqKgq" role="2OqNvi">
+                    <ref role="3Tt5mk" to="ob49:7Q9brJK5QFw" resolve="multiplicity" />
+                  </node>
+                </node>
+                <node concept="2qgKlT" id="5X1p0OfqKgr" role="2OqNvi">
+                  <ref role="37wK5l" to="wtma:7Q9brJK6xX9" resolve="getOppositeMultiplicity" />
+                </node>
+              </node>
+              <node concept="LFhST" id="5X1p0OfqKgs" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="4MAF2RZCuBz" role="3cqZAp">
           <node concept="3cpWsn" id="4MAF2RZCuBA" role="3cpWs9">
             <property role="TrG5h" value="backPopulationField" />
@@ -438,6 +537,14 @@
                   <node concept="36biLy" id="4MAF2RZCvUN" role="2pJxcZ">
                     <node concept="37vLTw" id="4MAF2RZCvVf" role="36biLW">
                       <ref role="3cqZAo" node="4MAF2RZCvBc" resolve="fieldReference" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="2pIpSj" id="5X1p0OfqLx7" role="2pJxcM">
+                  <ref role="2pIpSl" to="ob49:5X1p0Ofqmfi" resolve="multiplicity" />
+                  <node concept="36biLy" id="5X1p0OfqLNW" role="2pJxcZ">
+                    <node concept="37vLTw" id="5X1p0OfqLOo" role="36biLW">
+                      <ref role="3cqZAo" node="5X1p0OfqKgl" resolve="multiplicity" />
                     </node>
                   </node>
                 </node>
@@ -456,8 +563,8 @@
               <node concept="QwW4i" id="4MAF2RZCtTA" role="2Oq$k0">
                 <ref role="QwW4h" node="4MAF2RZCoRP" resolve="entityField" />
               </node>
-              <node concept="2qgKlT" id="4MAF2RZCurK" role="2OqNvi">
-                <ref role="37wK5l" to="wtma:4MAF2RZCszz" resolve="getReferencedEntity" />
+              <node concept="2qgKlT" id="5X1p0OfsjRV" role="2OqNvi">
+                <ref role="37wK5l" to="wtma:5X1p0OfrVdJ" resolve="getEntityType" />
               </node>
             </node>
           </node>
@@ -575,6 +682,77 @@
         <node concept="3clFbF" id="4MAF2RZD07V" role="3cqZAp">
           <node concept="Xl_RD" id="4MAF2RZD07U" role="3clFbG">
             <property role="Xl_RC" value="Change To Bidirectional Relationship" />
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="Q5z_Y" id="5X1p0OfquCL">
+    <property role="TrG5h" value="fix_wrongMultiplicityBackpopulationField" />
+    <node concept="Q6JDH" id="5X1p0OfquD6" role="Q6Id_">
+      <property role="TrG5h" value="field" />
+      <node concept="3Tqbb2" id="5X1p0OfquDc" role="Q6QK4">
+        <ref role="ehGHo" to="ob49:7Q9brJK6xMh" resolve="BackPopulationField" />
+      </node>
+    </node>
+    <node concept="Q5ZZ6" id="5X1p0OfquCM" role="Q6x$H">
+      <node concept="3clFbS" id="5X1p0OfquCN" role="2VODD2">
+        <node concept="3clFbF" id="5X1p0OfqyqF" role="3cqZAp">
+          <node concept="2OqwBi" id="5X1p0Ofqzl9" role="3clFbG">
+            <node concept="2OqwBi" id="5X1p0Ofqy$g" role="2Oq$k0">
+              <node concept="QwW4i" id="5X1p0OfqyqD" role="2Oq$k0">
+                <ref role="QwW4h" node="5X1p0OfquD6" resolve="field" />
+              </node>
+              <node concept="3TrEf2" id="5X1p0Ofqz2T" role="2OqNvi">
+                <ref role="3Tt5mk" to="ob49:5X1p0Ofqmfi" resolve="multiplicity" />
+              </node>
+            </node>
+            <node concept="3YRAZt" id="5X1p0OfqzZT" role="2OqNvi" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5X1p0Ofq_KY" role="3cqZAp">
+          <node concept="3cpWsn" id="5X1p0Ofq_KZ" role="3cpWs9">
+            <property role="TrG5h" value="multiplicity" />
+            <node concept="3Tqbb2" id="5X1p0OfqBk1" role="1tU5fm">
+              <ref role="ehGHo" to="ob49:7Q9brJK5QEj" resolve="Multiplicity" />
+            </node>
+            <node concept="2OqwBi" id="5X1p0OfqAx9" role="33vP2m">
+              <node concept="2OqwBi" id="5X1p0Ofq_L0" role="2Oq$k0">
+                <node concept="QwW4i" id="5X1p0Ofq_L1" role="2Oq$k0">
+                  <ref role="QwW4h" node="5X1p0OfquD6" resolve="field" />
+                </node>
+                <node concept="2qgKlT" id="5X1p0Ofq_L2" role="2OqNvi">
+                  <ref role="37wK5l" to="wtma:7Q9brJK6FBc" resolve="getMultiplicity" />
+                </node>
+              </node>
+              <node concept="LFhST" id="5X1p0OfqB0l" role="2OqNvi" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5X1p0Ofq$8S" role="3cqZAp">
+          <node concept="2OqwBi" id="5X1p0Ofq_66" role="3clFbG">
+            <node concept="2OqwBi" id="5X1p0Ofq$iz" role="2Oq$k0">
+              <node concept="QwW4i" id="5X1p0Ofq$8Q" role="2Oq$k0">
+                <ref role="QwW4h" node="5X1p0OfquD6" resolve="field" />
+              </node>
+              <node concept="3TrEf2" id="5X1p0Ofq$Lx" role="2OqNvi">
+                <ref role="3Tt5mk" to="ob49:5X1p0Ofqmfi" resolve="multiplicity" />
+              </node>
+            </node>
+            <node concept="2oxUTD" id="5X1p0OfqB$i" role="2OqNvi">
+              <node concept="37vLTw" id="5X1p0OfqBAS" role="2oxUTC">
+                <ref role="3cqZAo" node="5X1p0Ofq_KZ" resolve="multiplicity" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="QznSV" id="5X1p0OfquDl" role="QzAvj">
+      <node concept="3clFbS" id="5X1p0OfquDm" role="2VODD2">
+        <node concept="3clFbF" id="5X1p0OfquLV" role="3cqZAp">
+          <node concept="Xl_RD" id="5X1p0OfquLU" role="3clFbG">
+            <property role="Xl_RC" value="Fix Wrong Multiplicity" />
           </node>
         </node>
       </node>

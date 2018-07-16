@@ -25,6 +25,7 @@
     <language slang="l:9ded098b-ad6a-4657-bfd9-48636cfe8bc3:jetbrains.mps.lang.traceable" version="0" />
   </languageVersions>
   <dependencyVersions>
+    <module reference="6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)" version="0" />
     <module reference="28d34d11-580d-41b6-b719-d207fd1ef5e8(de.bluefu.orm.lib)" version="0" />
     <module reference="b1dce145-0730-40a8-b018-f14803dc2bbb(de.bluefu.orm.sandbox)" version="0" />
   </dependencyVersions>

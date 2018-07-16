@@ -58,6 +58,7 @@
   <dependencies>
     <dependency reexport="false">f5a662b9-7bfe-41c1-b0ba-697096c96e2f(de.bluefu.orm)</dependency>
     <dependency reexport="false">a0ab8c10-c118-4755-ba27-3853435cf524(de.itemis.mps.tooltips)</dependency>
+    <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
   </dependencies>
   <languageVersions>
     <language slang="l:a0ab8c10-c118-4755-ba27-3853435cf524:de.itemis.mps.tooltips" version="-1" />
