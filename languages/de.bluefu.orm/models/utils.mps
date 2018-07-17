@@ -144,6 +144,45 @@
       <node concept="3Tm1VV" id="5X1p0OfwSUp" role="1B3o_S" />
       <node concept="17QB3L" id="5X1p0OfwSW6" role="3clF45" />
     </node>
+    <node concept="2tJIrI" id="H6iNKUROeV" role="jymVt" />
+    <node concept="2YIFZL" id="H6iNKUROlI" role="jymVt">
+      <property role="TrG5h" value="getTableName" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="H6iNKUROlL" role="3clF47">
+        <node concept="3cpWs8" id="H6iNKUROP5" role="3cqZAp">
+          <node concept="3cpWsn" id="H6iNKUROP6" role="3cpWs9">
+            <property role="TrG5h" value="name" />
+            <node concept="17QB3L" id="H6iNKUROP3" role="1tU5fm" />
+            <node concept="2OqwBi" id="H6iNKUROP7" role="33vP2m">
+              <node concept="37vLTw" id="H6iNKUROP8" role="2Oq$k0">
+                <ref role="3cqZAo" node="H6iNKUROo6" resolve="entity" />
+              </node>
+              <node concept="3TrcHB" id="H6iNKUROP9" role="2OqNvi">
+                <ref role="3TsBF5" to="tpck:h0TrG11" resolve="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="H6iNKUROSX" role="3cqZAp">
+          <node concept="1rXfSq" id="H6iNKUROUq" role="3cqZAk">
+            <ref role="37wK5l" node="5X1p0OftBJx" resolve="convertToTableName" />
+            <node concept="37vLTw" id="H6iNKUROVG" role="37wK5m">
+              <ref role="3cqZAo" node="H6iNKUROP6" resolve="name" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="H6iNKUROjc" role="1B3o_S" />
+      <node concept="17QB3L" id="H6iNKUROly" role="3clF45" />
+      <node concept="37vLTG" id="H6iNKUROo6" role="3clF46">
+        <property role="TrG5h" value="entity" />
+        <node concept="3Tqbb2" id="H6iNKUROo5" role="1tU5fm">
+          <ref role="ehGHo" to="ob49:7Q9brJK5KVh" resolve="Entity" />
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="5X1p0OfwSSS" role="jymVt" />
     <node concept="2YIFZL" id="5X1p0Ofs19D" role="jymVt">
       <property role="TrG5h" value="getIdColumnName" />
