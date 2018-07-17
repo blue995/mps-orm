@@ -308,6 +308,7 @@
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
       <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <property id="1193676396447" name="virtualPackage" index="3GE5qa" />
         <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
       </concept>
       <concept id="3364660638048049750" name="jetbrains.mps.lang.core.structure.PropertyAttribute" flags="ng" index="A9Btg">
@@ -673,6 +674,7 @@
   </node>
   <node concept="jVnub" id="tvtm$WAy3Y">
     <property role="TrG5h" value="switch_MultiplicityType" />
+    <property role="3GE5qa" value="template switches" />
     <node concept="1N15co" id="tvtm$WAy6G" role="1s_3oS">
       <property role="TrG5h" value="entity" />
       <node concept="3Tqbb2" id="tvtm$WAy7p" role="1N15GL">
@@ -771,6 +773,7 @@
   </node>
   <node concept="13MO4I" id="5X1p0Ofob9G">
     <property role="TrG5h" value="reduce_EntityField" />
+    <property role="3GE5qa" value="reduction rules" />
     <ref role="3gUMe" to="ob49:7Q9brJK5QEa" resolve="EntityField" />
     <node concept="312cEu" id="5X1p0Ofob9L" role="13RCb5">
       <property role="TrG5h" value="Clazz" />
@@ -826,6 +829,7 @@
   </node>
   <node concept="13MO4I" id="5X1p0OfoelE">
     <property role="TrG5h" value="reduce_BackPopulationField" />
+    <property role="3GE5qa" value="reduction rules" />
     <ref role="3gUMe" to="ob49:7Q9brJK6xMh" resolve="BackPopulationField" />
     <node concept="312cEu" id="5X1p0OfoelJ" role="13RCb5">
       <property role="TrG5h" value="Clazz" />
@@ -881,6 +885,7 @@
   </node>
   <node concept="13MO4I" id="5X1p0Ofojux">
     <property role="TrG5h" value="reduce_PropertyField" />
+    <property role="3GE5qa" value="reduction rules" />
     <ref role="3gUMe" to="ob49:7Q9brJK5QEk" resolve="PropertyField" />
     <node concept="312cEu" id="5X1p0OfojvX" role="13RCb5">
       <property role="TrG5h" value="Clazz" />
@@ -943,6 +948,7 @@
   </node>
   <node concept="jVnub" id="tvtm$WJjXp">
     <property role="TrG5h" value="switch_FieldType" />
+    <property role="3GE5qa" value="template switches" />
     <node concept="3aamgX" id="tvtm$WJjYN" role="3aUrZf">
       <property role="36QftV" value="true" />
       <ref role="30HIoZ" to="ob49:7Q9brJK5QEa" resolve="EntityField" />
@@ -1042,6 +1048,7 @@
   </node>
   <node concept="13MO4I" id="5X1p0OfrQke">
     <property role="TrG5h" value="reduce_OneToMany" />
+    <property role="3GE5qa" value="reduction rules" />
     <ref role="3gUMe" to="ob49:7Q9brJK5QFu" resolve="OneToMany" />
     <node concept="312cEg" id="5X1p0Ofoek$" role="13RCb5">
       <property role="TrG5h" value="object" />
@@ -1165,6 +1172,7 @@
   </node>
   <node concept="13MO4I" id="5X1p0OfsSBh">
     <property role="TrG5h" value="reduce_ManyToOne" />
+    <property role="3GE5qa" value="reduction rules" />
     <ref role="3gUMe" to="ob49:7Q9brJK5QEl" resolve="ManyToOne" />
     <node concept="312cEg" id="5X1p0OfsSKs" role="13RCb5">
       <property role="TrG5h" value="object" />
@@ -1211,6 +1219,7 @@
   </node>
   <node concept="13MO4I" id="5X1p0OfttkV">
     <property role="TrG5h" value="reduce_ManyToMany" />
+    <property role="3GE5qa" value="reduction rules" />
     <ref role="3gUMe" to="ob49:7Q9brJK5QFv" resolve="ManyToMany" />
     <node concept="312cEg" id="5X1p0Ofttz7" role="13RCb5">
       <property role="TrG5h" value="object" />
@@ -1392,6 +1401,7 @@
   </node>
   <node concept="13MO4I" id="5X1p0Ofvkzs">
     <property role="TrG5h" value="template_JoinColumn" />
+    <property role="3GE5qa" value="special templates" />
     <node concept="1N15co" id="5X1p0Ofvl2W" role="1s_3oS">
       <property role="TrG5h" value="entity" />
       <node concept="3Tqbb2" id="5X1p0Ofvl3m" role="1N15GL">
@@ -1475,6 +1485,7 @@
     <property role="1v3f2W" value="pre_processing" />
     <property role="TrG5h" value="appendMissingIdColumns" />
     <property role="1v3jST" value="true" />
+    <property role="3GE5qa" value="scripts" />
     <node concept="1pplIY" id="5X1p0OfxU3L" role="1pqMTA">
       <node concept="3clFbS" id="5X1p0OfxU3M" role="2VODD2">
         <node concept="3cpWs8" id="5X1p0Ofy0Zr" role="3cqZAp">
@@ -1620,6 +1631,7 @@
   </node>
   <node concept="1pmfR0" id="5X1p0OfyWCf">
     <property role="TrG5h" value="cleanIdAnnotations" />
+    <property role="3GE5qa" value="scripts" />
     <node concept="1pplIY" id="5X1p0OfyWCg" role="1pqMTA">
       <node concept="3clFbS" id="5X1p0OfyWCh" role="2VODD2">
         <node concept="3cpWs8" id="5X1p0OfyX7C" role="3cqZAp">
