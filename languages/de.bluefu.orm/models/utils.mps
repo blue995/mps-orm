@@ -19,12 +19,17 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
+      <concept id="1070462154015" name="jetbrains.mps.baseLanguage.structure.StaticFieldDeclaration" flags="ig" index="Wx3nA">
+        <property id="6468716278899126575" name="isVolatile" index="2dlcS1" />
+        <property id="6468716278899125786" name="isTransient" index="2dld4O" />
+      </concept>
       <concept id="1070475926800" name="jetbrains.mps.baseLanguage.structure.StringLiteral" flags="nn" index="Xl_RD">
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1081236700938" name="jetbrains.mps.baseLanguage.structure.StaticMethodDeclaration" flags="ig" index="2YIFZL" />
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
+        <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
       <concept id="1068498886296" name="jetbrains.mps.baseLanguage.structure.VariableReference" flags="nn" index="37vLTw">
@@ -72,6 +77,7 @@
         <child id="1178549979242" name="visibility" index="1B3o_S" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
+      <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
       <concept id="1177026924588" name="jetbrains.mps.lang.smodel.structure.RefConcept_Reference" flags="nn" index="chp4Y">
@@ -100,6 +106,34 @@
   </registry>
   <node concept="312cEu" id="5X1p0Ofs18Q">
     <property role="TrG5h" value="EntityHelper" />
+    <node concept="Wx3nA" id="5X1p0OfwT3Q" role="jymVt">
+      <property role="2dlcS1" value="false" />
+      <property role="2dld4O" value="false" />
+      <property role="TrG5h" value="ID_ATTRIBUTE_NAME" />
+      <property role="3TUv4t" value="true" />
+      <node concept="3Tm6S6" id="5X1p0OfwT1J" role="1B3o_S" />
+      <node concept="17QB3L" id="5X1p0OfwT3F" role="1tU5fm" />
+      <node concept="Xl_RD" id="5X1p0OfwT5W" role="33vP2m">
+        <property role="Xl_RC" value="id" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5X1p0OfwSQl" role="jymVt" />
+    <node concept="2YIFZL" id="5X1p0OfwSWh" role="jymVt">
+      <property role="TrG5h" value="getIdAttributeName" />
+      <property role="od$2w" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="2aFKle" value="false" />
+      <node concept="3clFbS" id="5X1p0OfwSWk" role="3clF47">
+        <node concept="3cpWs6" id="5X1p0OfwSYm" role="3cqZAp">
+          <node concept="37vLTw" id="5X1p0OfwT7_" role="3cqZAk">
+            <ref role="3cqZAo" node="5X1p0OfwT3Q" resolve="ID_ATTRIBUTE_NAME" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="5X1p0OfwSUp" role="1B3o_S" />
+      <node concept="17QB3L" id="5X1p0OfwSW6" role="3clF45" />
+    </node>
+    <node concept="2tJIrI" id="5X1p0OfwSSS" role="jymVt" />
     <node concept="2YIFZL" id="5X1p0Ofs19D" role="jymVt">
       <property role="TrG5h" value="getIdColumnName" />
       <property role="od$2w" value="false" />

@@ -38,6 +38,7 @@
       <concept id="1078939183254" name="jetbrains.mps.lang.editor.structure.CellModel_Component" flags="sg" stub="3162947552742194261" index="PMmxH">
         <reference id="1078939183255" name="editorComponent" index="PMmxG" />
       </concept>
+      <concept id="1149850725784" name="jetbrains.mps.lang.editor.structure.CellModel_AttributedNodeCell" flags="ng" index="2SsqMj" />
       <concept id="1186402211651" name="jetbrains.mps.lang.editor.structure.StyleSheet" flags="ng" index="V5hpn">
         <child id="1186402402630" name="styleClass" index="V601i" />
       </concept>
@@ -507,6 +508,20 @@
         <node concept="3F0A7n" id="7Q9brJK6xNh" role="2wV5jI">
           <property role="1Intyy" value="true" />
           <ref role="1NtTu8" to="tpck:h0TrG11" resolve="name" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="24kQdi" id="5X1p0Ofw2Ch">
+    <ref role="1XX52x" to="ob49:5X1p0Ofw2BZ" resolve="IdAnnotation" />
+    <node concept="3EZMnI" id="5X1p0Ofw2Cm" role="2wV5jI">
+      <node concept="3F0ifn" id="5X1p0Ofw2Cs" role="3EZMnx">
+        <property role="3F0ifm" value="@ID" />
+      </node>
+      <node concept="2iRkQZ" id="5X1p0Ofw2Cn" role="2iSdaV" />
+      <node concept="2SsqMj" id="5X1p0Ofw2Cj" role="3EZMnx">
+        <node concept="xShMh" id="5X1p0OfwQrW" role="3F10Kt">
+          <property role="VOm3f" value="true" />
         </node>
       </node>
     </node>
