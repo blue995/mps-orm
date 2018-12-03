@@ -2,6 +2,7 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/languages/de.bluefu.orm.hibernate/de.bluefu.orm.hibernate.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.bluefu.orm/de.bluefu.orm.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.bluefu.orm.lib/de.bluefu.orm.lib.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.bluefu.orm.sandbox/de.bluefu.orm.sandbox.msd" folder="" />

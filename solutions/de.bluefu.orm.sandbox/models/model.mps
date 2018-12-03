@@ -3,6 +3,8 @@
   <persistence version="9" />
   <languages>
     <use id="f5a662b9-7bfe-41c1-b0ba-697096c96e2f" name="de.bluefu.orm" version="0" />
+    <use id="ae66f62e-ac6f-4340-a91f-44559c9d2fb8" name="de.bluefu.orm.hibernate" version="0" />
+    <engage id="ae66f62e-ac6f-4340-a91f-44559c9d2fb8" name="de.bluefu.orm.hibernate" />
   </languages>
   <imports />
   <registry>
